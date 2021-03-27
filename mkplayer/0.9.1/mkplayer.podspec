@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
     spec.ios.deployment_target = "10.0"
     spec.tvos.deployment_target = "10.0"
 
-    spec.source       = { :http => "https://mkplayer.z13.web.core.windows.net/ios_tvos/MKPlayer-0.9.1.zip" }
+    spec.source       = { :http => "https://mkplayer.z13.web.core.windows.net/tmp_karthi/MKPlayer.framework.zip" }
 
     spec.ios.vendored_frameworks = 'MKPlayer/iOS/MKPlayer.framework'
     spec.ios.framework  = 'Foundation'
